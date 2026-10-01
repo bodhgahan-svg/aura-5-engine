@@ -10,7 +10,7 @@ import subprocess
 import google.generativeai as genai
 import edge_tts
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AQ.Ab8RN6J8Cpg7BATaWRXwsv_7Lz4-VU9WxViZyp1yJv00Nxvs-A")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AQ.Ab8RN6JkRrkpAf_Y6itKwlvJIo1ZADtJSUD1QXen-1mDkZSehA)
 genai.configure(api_key=GEMINI_API_KEY.strip().strip('"').strip("'"))
 
 os.makedirs("output/visuals", exist_ok=True)
