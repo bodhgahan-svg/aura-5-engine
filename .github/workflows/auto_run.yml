@@ -2,8 +2,8 @@ name: AURA-5 Engine Auto Execution
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # हर 6 घंटे में खुद चलेगा
-  workflow_dispatch:      # जब चाहें मैनुअल भी चला सकते हैं
+    - cron: '0 */6 * * *'  # हर 6 घंटे में (दिन की 4 वीडियो) अपने आप चलेगा
+  workflow_dispatch:      # मैनुअल चलाने के लिए
 
 jobs:
   run-automation:
